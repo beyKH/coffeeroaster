@@ -167,7 +167,7 @@ img {
   width: 100%;
   height: 100%;
   transform: translateY(-1000px);
-  background-image: linear-gradient(#FEFCF7 75%, rgba(254, 252, 247, 0.504981) 100% );
+  background-image: linear-gradient(#FEFCF7 55%, rgba(254, 252, 247, 0.504981) 100% );
   transition: transform 0.5s ease;
 }
 
@@ -251,6 +251,10 @@ img {
     display: block;
   }
 
+  .sitenav-toggler{
+    display: block;
+  }
+
   .sitenav__list{
     display: none;
   }
@@ -311,6 +315,24 @@ img {
     opacity: 0.8;
   }
 
+  /* INDEX-COLLECTION  */
+  .index-collection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 
+  .index-collection__container {
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 72px;
+  }
+
+  .index-collection__heading {}
+
+  .index-collection__list {}
+
+  .index-collection__item {}
 
 }
