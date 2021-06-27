@@ -658,3 +658,44 @@ img {
     display: inline-block;
   }
 }
+
+
+@media only screen and (min-width: 1000px) {
+  .site-header {}
+
+  .container {}
+
+  .site-header__container {}
+
+  .logo {}
+
+  .logo__img {}
+
+  .sitenav {}
+
+  .sitenav-toggler {
+    display: none;
+  }
+
+  .sitenav__list {
+    display: flex;
+
+    list-style: none;
+
+  }
+
+  .sitenav__item:not(:last-child) {
+    margin-right: 32px;
+  }
+
+  .sitenav__link {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--grey);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
